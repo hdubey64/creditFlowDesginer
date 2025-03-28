@@ -9,7 +9,6 @@ const App = () => {
       <HeroUIProvider>
          <ReactFlowProvider>
             <Header />
-
             <FlowCanvas />
          </ReactFlowProvider>
       </HeroUIProvider>

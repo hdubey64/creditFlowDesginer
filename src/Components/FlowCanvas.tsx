@@ -323,7 +323,8 @@ const FlowCanvas = () => {
                </div>
             )}
          </div>
-         <div className="w-[13.75rem] flex flex-col p-2.5 primaryBackground">
+
+         {/* <div className="w-[13.75rem] flex flex-col p-2.5 primaryBackground">
             {labels.map(({ type, label, color }) => (
                <div
                   key={type}
@@ -346,7 +347,7 @@ const FlowCanvas = () => {
             >
                Exportar BPMN
             </Button>
-         </div>
+         </div> */}
       </div>
    );
 };
