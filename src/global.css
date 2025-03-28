@@ -1,0 +1,52 @@
+@import "tailwindcss";
+:root {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+@theme {
+   /* --color-*: initial; */
+   --color-white: #fff;
+   --color-black: #000;
+   --color-gray-50: #f0f0f0;
+   --color-gray-100: #ddd;
+   --color-green-550: #4caf50;
+   --color-red-550: #f44336;
+}
+
+.primaryBorder {
+   @apply border-[#ddd];
+}
+
+.primaryBackground {
+   @apply bg-[#f0f0f0];
+}
+.secondaryBackground {
+   @apply bg-[#fff];
+}
+.btnText {
+   @apply text-[#fff];
+}
+.labelStyle {
+   @apply mb-2 font-semibold text-sm;
+}
+.inputStyle {
+   @apply border-[#ddd] bg-[#fff] px-3 py-1  outline-none;
+}
+
+.react-flow__node {
+   @apply shadow-lg rounded-lg border-2;
+}
+
+.react-flow__handle {
+   @apply w-3 h-3;
+}
+
+.react-flow__handle-top {
+   @apply top-0;
+}
+
+.react-flow__handle-bottom {
+   @apply bottom-0;
+}
